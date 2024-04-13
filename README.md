@@ -7,5 +7,7 @@ Basta indicar de qual ano deseja baixar o arquivo, se precisar de mais de um ano
 Se você estiver atualizando durante o ano corrente e já existir um arquivo com o mesmo nome, ele irá deletar o que já existe e baixar um novo arquivo.</p>
 
 ## Baixar arquivos 
-- Primeiro, crie um arquivo **.env** com o diretório onde os arquivos ficam salvos. Eu separo uma pasta para as importações e outro para as exportações.
-- Se estiver utilizando windows, troque todas as barras \ por / no caminho do diretório
+- Primeiro, crie um arquivo **.env** com o diretório onde os arquivos ficam salvos. Eu separo uma pasta para as importações e outro para as exportações. O arquivo deve ter a seguinte estrutura: 
+    * PATH_DIR=diretório
+    <br>Onde o atributo **PATH_DIR** você deve deixar com esse nome e após o sinal de "=" você deve adicionar o diretório onde irá salvar os arquivos.
+    * Se estiver utilizando windows, troque todas as barras \ por / no caminho do diretório
