@@ -21,5 +21,5 @@ def get_files(year):
             if os.path.exists(filename):
                 os.remove(filename)
             wget.download(file, save_path_dir+'Importação/')
-        print(f'\nArquivo {os.path.basename(file)} salvo com sucesso!')
+        print(f'\nArquivo {os.path.basename(file)} salvo com sucesso!\n')
     return None
